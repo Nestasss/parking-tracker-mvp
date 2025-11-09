@@ -1,0 +1,19 @@
+{
+  "name": "parking-tracker-mvp",
+  "version": "1.0.0",
+  "description": "MVP для отслеживания парковки",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^4.12.2",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
